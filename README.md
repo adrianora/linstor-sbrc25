@@ -28,6 +28,9 @@
 - [Philipp Reisner. 'DRBD v8 – Replicated Storage with Shared Disk Semantics'](./papers/DRBD%20v8%20-%20Replicated%20Storage%20with%20Shared%20Disk%20Semantics.pdf)
 - [Philipp Reisner. 'Rapid resynchronization for replicated storage'](./papers/Rapid%20resynchronization%20for%20replicated%20storage.pdf)
 
+### Código
+- [Swagger do Linstor](https://app.swaggerhub.com/apis-docs/Linstor/Linstor/1.19.0#/)
+
 ## Ceph
 - [New in Luminous: Improved Scalability](https://ceph.com/community/new-luminous-scalability/)
     - In 2015, CERN ran a Ceph scalability experiment with 30 PB across 7200 OSDs
