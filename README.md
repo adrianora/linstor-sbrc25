@@ -21,7 +21,7 @@
 - [LINSTOR Introduction & Demonstration](https://www.youtube.com/watch?v=-pwQ1Zzm1IE)
 - [Exploring the World of DRBD: Distributed Replicated Block Devices](https://www.ktpql.com/distributed-replicated-block-devices/)
 - [Issue: overprovisioning protections](https://github.com/LINBIT/linstor-server/issues/377)
-- [Linstor Quickview: an in progress map of related Linstor useful information](https://drive.google.com/file/d/12ohtcIUb6kirzCUJhsTTATeNUGnvV_sO/view?usp=sharing)
+- [Linstor Quickview: an in progress map of useful Linstor information](https://drive.google.com/file/d/12ohtcIUb6kirzCUJhsTTATeNUGnvV_sO/view?usp=sharing)
 
 ### papers
 - [Linstor publications website index](https://linbit.com/drbd-user-guide/users-guide-drbd-8-4/#s-publications)
