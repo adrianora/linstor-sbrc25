@@ -22,6 +22,10 @@
 - [Exploring the World of DRBD: Distributed Replicated Block Devices](https://www.ktpql.com/distributed-replicated-block-devices/)
 - [Issue: overprovisioning protections](https://github.com/LINBIT/linstor-server/issues/377)
 - [Linstor Quickview: an in progress map of useful Linstor information](https://drive.google.com/file/d/12ohtcIUb6kirzCUJhsTTATeNUGnvV_sO/view?usp=sharing)
+- [Linstor: networked storage without the complexity](https://brian-candler.medium.com/linstor-networked-storage-without-the-complexity-c3178960ce6b)
+- [Linstor: concepts and configuration](https://brian-candler.medium.com/linstor-concepts-and-configuration-e5b0c8e10d27)
+
+
 
 ### papers
 - [Linstor publications website index](https://linbit.com/drbd-user-guide/users-guide-drbd-8-4/#s-publications)
