@@ -2,10 +2,14 @@
 
 ## Deadlines
 
-### Datas internas
-- v0 do artigo: 01/11/2024
-- v1 do artigo: 15/11/2024
-- v2 do artigo: 29/11/2024
+### Internas
+- 20 de dezembro: artigo completo
+- seções escritas
+    - arquitetura (29/11 - sexta)
+    - design dos experimentos (29/11 - sexta)
+    - introdução (06/12 - sexta)
+    - execução + resultado dos experimentos (13/12 - sexta)
+    - trabalhos relacionados + conclusão (20/12 - sexta)
 
 ### [Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC)](https://sbrc.sbc.org.br/2025/pt_br/)
 - Registro de artigos: 06/01/2025
@@ -16,7 +20,6 @@
 ## Linstor
 - [Comparing LINSTOR & Ceph Storage Clusters](https://linbit.com/blog/how-does-linstor-compare-to-ceph/)
 - [Comparing LINSTOR, Ceph, Mayastor, & Vitastor Storage Performance in Kubernetes](https://linbit.com/blog/comparing-linstor-ceph-mayastor-vitastor-storage-performance-in-kubernetes/)
-- [What are the benefits of running DRBD in Diskless mode?](https://linbit.com/blog/what-are-the-benefits-of-running-drbd-in-diskless-mode/)
 - [How LINSTOR Works](https://linbit.com/drbd-user-guide/linstor-guide-1_0-en/#_how_linstor_works)
 - [LINSTOR Introduction & Demonstration](https://www.youtube.com/watch?v=-pwQ1Zzm1IE)
 - [Exploring the World of DRBD: Distributed Replicated Block Devices](https://www.ktpql.com/distributed-replicated-block-devices/)
@@ -24,8 +27,14 @@
 - [Linstor Quickview: an in progress map of useful Linstor information](https://drive.google.com/file/d/12ohtcIUb6kirzCUJhsTTATeNUGnvV_sO/view?usp=sharing)
 - [Linstor: networked storage without the complexity](https://brian-candler.medium.com/linstor-networked-storage-without-the-complexity-c3178960ce6b)
 - [Linstor: concepts and configuration](https://brian-candler.medium.com/linstor-concepts-and-configuration-e5b0c8e10d27)
+- [Linstor REST API](https://app.swaggerhub.com/apis-docs/Linstor/Linstor)
+- [Kubernetes CSI Plugin for LINSTOR](https://linbit.com/blog/linstor-csi-plugin-for-kubernetes/)
 
-
+## DRBD
+- [Understanding DRBD Replication Modes: Ensuring Data Integrity and Performance](https://callmedanbo.medium.com/understanding-drbd-replication-modes-ensuring-data-integrity-and-performance-bb0b934b67f8)
+- [What are the benefits of running DRBD in Diskless mode?](https://linbit.com/blog/what-are-the-benefits-of-running-drbd-in-diskless-mode/)
+- [Install DRBD standalone](https://www.server-world.info/en/note?os=Ubuntu_24.04&p=drbd&f=1)
+- [Diskless DRBD](https://fe.ax/diskless-drbd/)
 
 ### papers
 - [Linstor publications website index](https://linbit.com/drbd-user-guide/users-guide-drbd-8-4/#s-publications)
@@ -55,6 +64,14 @@
 - [Ceph Tech Talk: Ceph at DigitalOcean](https://www.youtube.com/watch?v=k_bTg72eOhU)
 - [Digital Ocean Block Storage Performance](https://docs.digitalocean.com/products/volumes/details/features/)
 
+## Alibaba
+- [Pangu – The High Performance Distributed File System by Alibaba Cloud](https://www.alibabacloud.com/blog/pangu-the-high-performance-distributed-file-system-by-alibaba-cloud_594059)
+- [When Cloud Storage Meets RDMA](https://www.usenix.org/conference/nsdi21/presentation/gao)
+- [More Than Capacity: Performance-oriented Evolution of Pangu in Alibaba](./papers/More%20Than%20Capacity%20-%20Performance-oriented%20Evolution%20of%20Pangu%20in%20Alibaba.pdf)
+- [What's the Story in EBS Glory: Evolutions and Lessons in Building Cloud Block Store - Presentation](https://www.usenix.org/conference/fast24/presentation/zhang-weidong)
+- [What’s the Story in EBS Glory: Evolutions and Lessons in Building Cloud Block Store - PAPER](./papers/What’s%20the%20Story%20in%20EBS%20Glory-%20Evolutions%20and%20Lessons%20in%20Building%20Cloud%20Block%20Store.pdf)
+- [Evolution of the Alibaba Cloud Pangu Distributed Storage Technology](https://alibaba-cloud.medium.com/evolution-of-the-alibaba-cloud-pangu-distributed-storage-technology-b607d481bc0f)
+
 # Oxide
 - [Storage Architecture Considerations](https://rfd.shared.oxide.computer/rfd/60)
 - [Implementation of Data Storage](https://rfd.shared.oxide.computer/rfd/0177)
@@ -63,6 +80,10 @@
 - [Crucible: The Oxide Storage Service](https://oxide.computer/podcasts/oxide-and-friends/1734108)
 - [Crucible: The Oxide Storage Service - Youtube](https://www.youtube.com/watch?v=UvEKSqBBcZw)
 - [Crucible Code](https://github.com/oxidecomputer/crucible)
+
+## ZFS
+- [OpenZFS the final word in file systems](https://jro.io/truenas/openzfs/)
+- [ZFS High-Availability NAS](https://github.com/ewwhite/zfs-ha/wiki)
 
 # Public Cloud storage performance
 - [AWS](https://aws.amazon.com/pt/ebs/provisioned-iops/)
@@ -83,3 +104,7 @@
 - [PowerScale](https://www.dell.com/pt-br/shop/família-powerscale/sf/powerscale?hve=explore+powerscale)
 - [PowerVault](https://www.dell.com/pt-br/shop/storage/sf/powervault?gacd=9687031-14004-5761040-273175705-0&dgc=ST&gad_source=1&gbraid=0AAAAACgzZXctUPk8vQ0fbPes4k-pcADj6&gclsrc=ds#compare-module)
 - [What’s the Difference Between Block, Object, and File Storage?](https://aws.amazon.com/compare/the-difference-between-block-file-object-storage/)
+- [LVM](https://wiki.archlinux.org/title/LVM)
+- [Boosting Linux Storage Performance with LVM Striping](https://medium.com/@ahmedmansouri/boosting-linux-disk-performance-with-lvm-striping-06f0124663ba)
+- [LINBIT's Knowledge Base](https://kb.linbit.com)
+- [The Storage Architecture of Intel's Data Management Platform (DMP)](https://www.usenix.org/conference/vault19/presentation/cohen)
